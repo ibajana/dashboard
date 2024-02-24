@@ -251,6 +251,7 @@ let loadData = () => {
 
     let newData = [100, 80, 60, 40, 20, 10, 1];
     chart1.data.datasets[0].data = newData;
+    chart1.data.datasets[0].backgroundColor = 'rgba(0, 0, 255, .2)';
 }
 
 loadData()
